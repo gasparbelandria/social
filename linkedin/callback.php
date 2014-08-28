@@ -10,8 +10,8 @@ $miconexion = new DB_mysql;
 $miconexion->conectar();
 
 // Change these
-define('API_KEY',      ''                                          );
-define('API_SECRET',   ''                                       );
+define('API_KEY',      '77ok8gyyhzrre9'                                             );
+define('API_SECRET',   'bpiidQFjZkBEoJe2'                                           );
 define('REDIRECT_URI', 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['SCRIPT_NAME']);
 define('SCOPE',        'r_fullprofile r_emailaddress rw_nus'                        );
   
